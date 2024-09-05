@@ -7,7 +7,7 @@ Term: Fall A 2024
 The `montyhall` R package provides functions to simulate the Monty Hall problem from the classic game show, "Let's Make a Deal." This package allows users to simulate new games and explore the probability of winning under different decision-making strategies. 
 
 ## Installation
-To install the `montyhall` package, using the `devtools` package. 
+To install the `montyhall` package, use the `devtools` package. 
 ```
 install.package("devtools")
 devtools::install_github("M-Gamez/montyhall")
@@ -20,16 +20,10 @@ The `play_game()` function returns a 2x2 data frame
 with a strategy column with 'stay' or 'switch' options
 and a result column showing whether the strategy won or lost the game.
 
-To run a simulation of the game 10,000 and display results in a table: 
+To run a simulation multiple simulations of the game and store results in a data frame, call the `play_n_games(n)` function and pass the number of games you wish to run as an argument. 
 ```
-results.df <- NULL   # collector
-
-for( i in 1:10000 )  # iterator
-{
-  game.outcome <- play_game()
-  results.df <- rbind( results.df, game.outcome )
-}
-table( results.df ) 
+# to simulate 100 games
+play_n_games(100)
 ```
 
 To display results as a proportion of each outcome: 

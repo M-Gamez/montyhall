@@ -32,3 +32,10 @@ table( results.df ) %>%
   prop.table( margin=1 ) %>%  # row proportions
   round( 2 )
 ```
+## Functions
+The `play_game()` and  `play_n_games()` functions execute the following functions in order to run a simulation. 
+*  `create_game()`: creates a new Monty Hall game set-up.
+*  `select_door()`: determines the contestant's first door choice.
+*  `open_goat_door()`: selects door with goat from remaining doors. 
+*  `change_door()`: determines the contestant's final door choices if they switch or stay.
+*  `determine_winner()`: evaluates whether the contestant's final door choice is a car or a goat.

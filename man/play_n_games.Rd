@@ -26,3 +26,12 @@ play_n_games(100)
 # play 50 games
 play_n_games(50)
 }
+\seealso{
+Other montyhall: 
+\code{\link{change_door}()},
+\code{\link{create_game}()},
+\code{\link{determine_winner}()},
+\code{\link{open_goat_door}()},
+\code{\link{play_game}()}
+}
+\concept{montyhall}

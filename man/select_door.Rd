@@ -15,6 +15,9 @@ The function returns a number between 1 and 3.
 \description{
 \code{select_door()} randomly one of the doors for the contestant.
 }
+\details{
+Generally, you will not need to run this function yourself; it should be run automatically when you run a full simulation with \code{play_game()}.
+}
 \examples{
 select_door()
 }

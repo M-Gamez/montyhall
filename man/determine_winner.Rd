@@ -20,7 +20,17 @@ The contestant is determined to win if their door contains a car and lose if the
 }
 \details{
 This function requires two arguments.
+Generally, you will not need to run this function yourself; it should be run automatically when you run a full simulation with \code{play_game()}.
 }
 \examples{
 determine_winner(final.pick=contestant.choice, game=new.game)
 }
+\seealso{
+Other montyhall: 
+\code{\link{change_door}()},
+\code{\link{create_game}()},
+\code{\link{open_goat_door}()},
+\code{\link{play_game}()},
+\code{\link{play_n_games}()}
+}
+\concept{montyhall}

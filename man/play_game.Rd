@@ -20,3 +20,12 @@ won or lost the game.
 \examples{
 play_game()
 }
+\seealso{
+Other montyhall: 
+\code{\link{change_door}()},
+\code{\link{create_game}()},
+\code{\link{determine_winner}()},
+\code{\link{open_goat_door}()},
+\code{\link{play_n_games}()}
+}
+\concept{montyhall}

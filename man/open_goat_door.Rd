@@ -19,7 +19,18 @@ The function returns a number between 1 and 3 corresponding to a door with a goa
 }
 \details{
 This function requires two arguments.
+
+Generally, you will not need to run this function yourself; it should be run automatically when you run a full simulation with \code{play_game()}.
 }
 \examples{
 open_goat_door(game=new_game, a.pick=contestant_choice)
 }
+\seealso{
+Other montyhall: 
+\code{\link{change_door}()},
+\code{\link{create_game}()},
+\code{\link{determine_winner}()},
+\code{\link{play_game}()},
+\code{\link{play_n_games}()}
+}
+\concept{montyhall}

@@ -23,8 +23,18 @@ if desired.
 }
 \details{
 This function requires three arguments.
+Generally, you will not need to run this function yourself; it should be run automatically when you run a full simulation with \code{play_game()}.
 }
 \examples{
 change_door(stay=T, opened.door, a.pick)
 change_door(stay=F, opened.door, a.pick)
 }
+\seealso{
+Other montyhall: 
+\code{\link{create_game}()},
+\code{\link{determine_winner}()},
+\code{\link{open_goat_door}()},
+\code{\link{play_game}()},
+\code{\link{play_n_games}()}
+}
+\concept{montyhall}

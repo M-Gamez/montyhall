@@ -26,12 +26,6 @@ To run a simulation multiple simulations of the game and store results in a data
 play_n_games(100)
 ```
 
-To display results as a proportion of each outcome: 
-```
-table( results.df ) %>% 
-  prop.table( margin=1 ) %>%  # row proportions
-  round( 2 )
-```
 ## Functions
 The `play_game()` and  `play_n_games()` functions execute the following functions in order to run a simulation. 
 *  `create_game()`: creates a new Monty Hall game set-up.
